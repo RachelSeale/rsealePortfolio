@@ -1,0 +1,44 @@
+.portfolio-work{
+  position: relative;
+}
+
+.image-overlay{
+  position: absolute;
+  background: rgba(255,255,255, 0.85);
+  border: 1px solid #efefef;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  opacity: 1;
+}
+
+
+.portfolio-work:hover{
+  .cart-overlay, .search-overlay, .image-overlay{
+    opacity: 0;
+    transition: all 0.7s ease;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.portfolio-content {
+  
+  @include box-sizing(border-box);
+  $mobile: new-breakpoint(max-width 600px 12);
+
+  .portfolio-work { @include span-columns(6); 
+      margin-bottom: 2%;
+      background-color: $white;
+      @include omega(2n);
+
+
+    @include media($mobile) {
+       @include span-columns(12);
+    }
+  }
+}
