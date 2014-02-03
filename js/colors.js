@@ -25,3 +25,4 @@ var myColor = randomColor();
 $('.title').css('color', myColor.main);
 $('.page-title').css('color', myColor.comp);
 $('.menu-link').css('background', myColor.comp);
+$('.work-skills li').css('background', myColor.comp);
