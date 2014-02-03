@@ -1,8 +1,8 @@
 $(document).ready(function () {
-    $(".accordian h3").click(function () {
+    $(".skills-accordian h3").click(function () {
 
 
-   $(".accordian ul ul").slideUp();
+   $(".skills-accordian ul ul").slideUp();
 
         
     if (!$(this).next().is(":visible")) {

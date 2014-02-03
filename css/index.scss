@@ -39,7 +39,7 @@ p {
 /*accordian*/
 
 
-.accordian {
+.skills-accordian {
     clear: both;
     background: $white;
     border: 1px solid #efefef;
@@ -65,7 +65,7 @@ p {
   }
 }
 
-.accordian ul p {
+.skills-accordian ul p {
     color: $font-color;
     text-decoration: none;
     font-size: 12px; 
@@ -74,11 +74,11 @@ p {
 
 /*Lets hide the non active LIs by default*/
 
-.accordian ul ul {
+.skills-accordian ul ul {
     display: none;
 }
 
-.accordian li.active ul {
+.skills-accordian li.active ul {
     display: block;
 }
 
@@ -86,6 +86,10 @@ p {
   font-size: 13px;
   float: right;
   margin: 1%;    
+}
+
+p .fa-border{
+  border-style: none;
 }
 
 /*****************************************************************************/

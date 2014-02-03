@@ -153,7 +153,7 @@ img {
           margin-right: 0; } }
 
 /*accordian*/
-.accordian {
+.skills-accordian {
   clear: both;
   background: white;
   border: 1px solid #efefef;
@@ -164,7 +164,7 @@ img {
   margin: 2%;
   width: 95%;
   /*list items*/ }
-  .accordian h3 {
+  .skills-accordian h3 {
     font-size: 12px;
     line-height: 34px;
     padding: 0 10px;
@@ -172,26 +172,29 @@ img {
     /*fallback for browsers not supporting gradients*/
     background-color: white;
     border: 1px solid #efefef; }
-  .accordian li {
+  .skills-accordian li {
     list-style-type: none; }
 
-.accordian ul p {
+.skills-accordian ul p {
   color: #2e3133;
   text-decoration: none;
   font-size: 12px;
   transition: all 0.15s; }
 
 /*Lets hide the non active LIs by default*/
-.accordian ul ul {
+.skills-accordian ul ul {
   display: none; }
 
-.accordian li.active ul {
+.skills-accordian li.active ul {
   display: block; }
 
 .call-to-action {
   font-size: 13px;
   float: right;
   margin: 1%; }
+
+p .fa-border {
+  border-style: none; }
 
 /*****************************************************************************/
 /*
