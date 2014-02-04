@@ -10,8 +10,8 @@ function randomColor () {
       main: '#F5C4EC',
       comp: '#C4F5CD'
     },{
-      main: '#FF6691',
-      comp: '#7762FC'
+      main: '#FF8CAD',
+      comp: '#98BAFF'
     },{
       main: '#F76AB6',
       comp: '#F7BC6A'

@@ -2,10 +2,7 @@
   position: relative;
 }
 
-
-
-
-.portfolio-work:hover{
+/* .portfolio-work:hover{
     opacity: 1;
     background-image:url('../images/work1.jpg');
     transition: all 0.3s ease;
@@ -13,42 +10,53 @@
   .portfolio-work p {
     display: none;
     }
-  }
-
-
+  } */
 
 img {
   width: 100%;
+  height: 250px;
+}
+
+.first-half{
+  width: 45%;
+  float: left;
+}
+
+.second-half{
+  width: 45%;
+  float: right;
 }
 
 .portfolio-content {
   
   @include box-sizing(border-box);
-  $tablet: new-breakpoint(max-width 890px 12);
-  $mobile: new-breakpoint(max-width 710px 12);
+  $tablet: new-breakpoint(max-width 780px 12);
+  $mobile: new-breakpoint(max-width 540px 12);
 
-  .portfolio-work { @include span-columns(6); 
+  .portfolio-work { @include span-columns(12); 
       margin-bottom: 2%;
       background-color: $white;
       @include omega(2n);
 
     @include media($tablet) {
-    @include span-columns(6);
+    @include span-columns(12);
       font-size: 12px;
- 
-    }  
+    }   
 
     @include media($mobile) {
        @include span-columns(12);
-       font-size: 16px;
+       .first-half, .second-half{
+        width: 100%;
+       }
+    img{
+      display: none;
+    }
     }
   }
 }
-
-
-  
+ 
 .portfolio-work{
-  height: 240px;
+  height: 250px;
 
   p {
   width: 90%;
