@@ -1,4 +1,4 @@
-rsealePortfolio-
-================
+NewPortfolio
+============
 
-My new portfolio using Jekyll, Bourbon and Sass
+New portfolio created using Jekyll
