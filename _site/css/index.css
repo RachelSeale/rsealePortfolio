@@ -226,17 +226,15 @@ img {
   font-size: 12px;
   transition: all 0.15s; }
 
-/*Lets hide the non active LIs by default*/
-.skills-accordian ul ul {
+.skills-accordian ul .skills-inner {
   display: none; }
 
 .skills-accordian li.active ul {
   display: block; }
 
-.call-to-action {
+.ratings {
   font-size: 13px;
-  float: right;
-  margin: 1%; }
+  margin-left: 85%; }
 
 p .fa-border {
   border-style: none; }
@@ -404,6 +402,9 @@ p .fa-border {
   line-height: 1.6;
   color: #2e3133;
   margin: 0% 5% 3% 5%; }
+
+.my-details p {
+  margin: 0% 5%; }
 
 .my-details h1, .posts a, .content h2 {
   font-family: 'Oswald', sans-serif;

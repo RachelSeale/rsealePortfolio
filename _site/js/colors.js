@@ -26,3 +26,5 @@ $('.title').css('color', myColor.main);
 $('.page-title').css('color', myColor.comp);
 $('.menu-link').css('background', myColor.comp);
 $('.work-skills li').css('background', myColor.comp);
+$('.fa-star, .fa-star-half-o, .fa-star-o').css('color', myColor.comp);
+
