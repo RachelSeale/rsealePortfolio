@@ -118,7 +118,7 @@ p .fa-border{
     }
 
     @include media($mobile) {
-    @include span-columns(1);
+      @include span-columns(1);
 
     }
   }
@@ -126,7 +126,7 @@ p .fa-border{
     @include media($mobile) {
     @include span-columns(1);
     }
-}
+  }
 }
 
 /*****************************************************************************/

@@ -12,13 +12,13 @@
   bottom: 0;
   text-align: center;
   opacity: 1;
+  transition: all 0.7s ease;
 }
 
 
 .portfolio-work:hover{
-  .cart-overlay, .search-overlay, .image-overlay{
+  .image-overlay{
     opacity: 0;
-    transition: all 0.7s ease;
   }
 }
 
@@ -29,16 +29,33 @@ img {
 .portfolio-content {
   
   @include box-sizing(border-box);
-  $mobile: new-breakpoint(max-width 600px 12);
+  $tablet: new-breakpoint(max-width 735px 12);
+  $mobile: new-breakpoint(max-width 615px 12);
 
   .portfolio-work { @include span-columns(6); 
       margin-bottom: 2%;
       background-color: $white;
       @include omega(2n);
 
+    @include media($tablet) {
+      .image-overlay h2 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+       .image-overlay p{
+        font-size: 14px;
+       }
+    }  
 
     @include media($mobile) {
        @include span-columns(12);
+        .image-overlay h2 {
+          font-size: 30px;
+          line-height: 50px;
+          }
+        .image-overlay p{
+          font-size: 18px;
+       }
     }
   }
 }

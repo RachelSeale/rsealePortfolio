@@ -117,11 +117,11 @@ nav {
   right: 0;
   bottom: 0;
   text-align: center;
-  opacity: 1; }
-
-.portfolio-work:hover .cart-overlay, .portfolio-work:hover .search-overlay, .portfolio-work:hover .image-overlay {
-  opacity: 0;
+  opacity: 1;
   transition: all 0.7s ease; }
+
+.portfolio-work:hover .image-overlay {
+  opacity: 0; }
 
 img {
   width: 100%; }
@@ -143,14 +143,25 @@ img {
       margin-right: 0; }
     .portfolio-content .portfolio-work:nth-child(2n+1) {
       clear: left; }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 735px) {
+      .portfolio-content .portfolio-work .image-overlay h2 {
+        font-size: 25px;
+        line-height: 30px; }
+      .portfolio-content .portfolio-work .image-overlay p {
+        font-size: 14px; } }
+    @media screen and (max-width: 615px) {
       .portfolio-content .portfolio-work {
         display: block;
         float: left;
         margin-right: 2.35765%;
         width: 100%; }
         .portfolio-content .portfolio-work:last-child {
-          margin-right: 0; } }
+          margin-right: 0; }
+        .portfolio-content .portfolio-work .image-overlay h2 {
+          font-size: 30px;
+          line-height: 50px; }
+        .portfolio-content .portfolio-work .image-overlay p {
+          font-size: 18px; } }
 
 /*accordian*/
 .skills-accordian {
@@ -363,8 +374,8 @@ p .fa-border {
 .my-details h1, .posts a, .content h2 {
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
-  font-size: 26px;
-  line-height: 27px;
+  font-size: 30px;
+  line-height: 50px;
   color: #2e3133;
   height: auto;
   text-transform: uppercase;
