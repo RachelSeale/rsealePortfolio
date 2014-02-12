@@ -83,7 +83,10 @@ ul li{
     box-shadow: 0 0.65em 0 0 $silver-grey, 0 1.3em 0 0 $silver-grey;
   }
   
-  
+  nav li:hover{
+    background:rgba(255,255,255, 0.6);
+  }
+
   nav.active {
       max-height: 15em;
     }

@@ -90,6 +90,9 @@ nav {
     background: whitesmoke;
     box-shadow: 0 0.65em 0 0 whitesmoke, 0 1.3em 0 0 whitesmoke; }
 
+  nav li:hover {
+    background: rgba(255, 255, 255, 0.6); }
+
   nav.active {
     max-height: 15em; }
 
