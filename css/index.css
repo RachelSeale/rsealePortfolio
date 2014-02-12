@@ -393,9 +393,8 @@ p .fa-border {
   margin: 2% 5%;
   padding: 1%; }
 
-.youtube-video {
-  display: block;
-  margin: auto; }
+.youtube-vid {
+  text-align: center; }
 
 .footer {
   font-size: 80%;

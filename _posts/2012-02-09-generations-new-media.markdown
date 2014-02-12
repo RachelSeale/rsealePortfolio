@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cyber bullying’"
+title:  "Cyber bullying"
 date:   2012-02-09 11:10:58
 categories: Posts
 ---

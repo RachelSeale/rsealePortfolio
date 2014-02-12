@@ -4,9 +4,6 @@ function randomColor () {
       main: '#F76AB6',
       comp: '#6AF7AB'
     },{
-      main: '#6AA5F7',
-      comp: '#F7BC6A'
-    },{
       main: '#F5C4EC',
       comp: '#C4F5CD'
     },{

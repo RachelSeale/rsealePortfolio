@@ -7,4 +7,4 @@ categories: Posts
 
 This is a video my group for university had to produce to show in a creative way the advantages of strongly typed languages. This was made on the free software of iMovie on an Apple Mac.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/IbmYTPYuiPQ" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-vid"><iframe width="560" height="315" src="//www.youtube.com/embed/IbmYTPYuiPQ" frameborder="0" allowfullscreen></iframe></div>
