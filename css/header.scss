@@ -92,10 +92,9 @@ ul li{
       overflow: hidden;
       max-height: 0;
       clear: both;
-      position: absolute;
+      position: relative;
       width: 100%;
       background-color: $silver-grey;
-      margin: 15% 0;
    
     li{
       display: block;

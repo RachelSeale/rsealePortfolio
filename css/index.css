@@ -97,10 +97,9 @@ nav {
     overflow: hidden;
     max-height: 0;
     clear: both;
-    position: absolute;
+    position: relative;
     width: 100%;
-    background-color: whitesmoke;
-    margin: 15% 0; }
+    background-color: whitesmoke; }
     nav li {
       display: block;
       padding: 1em;
