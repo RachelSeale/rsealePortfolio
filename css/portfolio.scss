@@ -29,15 +29,16 @@ img {
 .portfolio-content {
   
   @include box-sizing(border-box);
-  $tablet: new-breakpoint(max-width 735px 12);
-  $mobile: new-breakpoint(max-width 615px 12);
+  $desktop: new-breakpoint(max-width 735px 12);
+  $tablet: new-breakpoint(max-width 615px 12);
+  $moible: new-breakpoint(max-width 400px 12);
 
   .portfolio-work { @include span-columns(6); 
       margin-bottom: 2%;
       background-color: $white;
       @include omega(2n);
 
-    @include media($tablet) {
+    @include media($desktop) {
       .image-overlay h2 {
         font-size: 25px;
         line-height: 30px;
@@ -47,7 +48,7 @@ img {
        }
     }  
 
-    @include media($mobile) {
+    @include media($tablet) {
        @include span-columns(12);
         .image-overlay h2 {
           font-size: 30px;
@@ -57,5 +58,16 @@ img {
           font-size: 18px;
        }
     }
+  
+  @include media($moible) {
+       @include span-columns(12);
+        .image-overlay p{
+          font-size: 14px;
+       }
+         .image-overlay h2 {
+        font-size: 25px;
+        line-height: 30px;
+      }
   }
+}
 }
