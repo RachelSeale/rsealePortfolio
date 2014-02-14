@@ -29,9 +29,9 @@ img {
 .portfolio-content {
   
   @include box-sizing(border-box);
-  $desktop: new-breakpoint(max-width 735px 12);
-  $tablet: new-breakpoint(max-width 615px 12);
-  $moible: new-breakpoint(max-width 400px 12);
+    $desktop: new-breakpoint(max-width 735px 12);
+    $tablet: new-breakpoint(max-width 615px 12);
+    $moible: new-breakpoint(max-width 400px 12);
 
   .portfolio-work { @include span-columns(6); 
       margin-bottom: 2%;
@@ -65,8 +65,8 @@ img {
           font-size: 14px;
        }
          .image-overlay h2 {
-        font-size: 25px;
-        line-height: 30px;
+            font-size: 25px;
+            line-height: 30px;
       }
   }
 }

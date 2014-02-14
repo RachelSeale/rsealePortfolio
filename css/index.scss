@@ -150,7 +150,7 @@ p .fa-border{
   .my-skills { @include span-columns(4); 
     @include media($tablet) {
       margin-top: 2%;
-    @include span-columns(1);
+        @include span-columns(1);
     }
   }
 
@@ -164,16 +164,15 @@ p .fa-border{
         }
     }
     @include media($mobile) {
-    @include span-columns(1);
-     .first-half, .second-half{
-         width: 100%;
-      }
-   
+      @include span-columns(1);
+         .first-half, .second-half{
+             width: 100%;
+      }   
     }
   }
 }
 
-.first-half{
+.first-half {
   width: 49%;
   float: left;
   margin-bottom: 5%;
@@ -196,11 +195,11 @@ p .fa-border{
 
 //CONTACT PAGE
 
- .contact-details, .twitter{
-  padding: 2%;
-  height: auto;
-  background-color: $white;
-  border: 1px solid #efefef;
+.contact-details, .twitter{
+    padding: 2%;
+    height: auto;
+    background-color: $white;
+    border: 1px solid #efefef;
 }
 
 .contact-me {
@@ -228,8 +227,7 @@ p .fa-border{
     @include span-columns(1);
      .first-half, .second-half{
          width: 100%;
-      }
-   
+      }   
     }
   }
 }
