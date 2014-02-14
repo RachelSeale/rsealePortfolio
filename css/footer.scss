@@ -1,25 +1,59 @@
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-
-
-.contact {
-  float: left;
-  margin-right: 3em;
- a {
-  color: #8085C1;
-  }
+.social-icons {
+  margin-top: -2%;
+  text-align: center;
 }
 
-.rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
- 
- img {
-  border: 0;
-    }
+.social-icons li{
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 0 -10px;
+}
+
+.twitter-icon{
+  z-index: 3;
+  position: relative;
+
+}
+
+.github-icon, .linkedin-icon {
+  z-index: 2;
+  position: relative;
+}
+
+footer {
+  @include outer-container;
+  background-color: $white;
+  margin-top: 3%;
+  $tablet: new-breakpoint(max-width 760px  4);
+  $mobile: new-breakpoint(max-width 500px 1);
+
+  .social-links { 
+    @include span-columns(12); 
+
   }
+  .bottom-footer{
+    @include span-columns(4);
+  }
+
+}
+
+.social-icons img
+{
+  max-width: 100%;
+  -webkit-transition: 0.30s;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.social-icons img:hover
+{
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  filter: grayscale(0);
 }
