@@ -418,16 +418,7 @@ p .fa-border {
 .social-icons li {
   display: inline-block;
   width: 64px;
-  height: 64px;
-  margin: 0 -10px; }
-
-.twitter-icon {
-  z-index: 3;
-  position: relative; }
-
-.github-icon, .linkedin-icon {
-  z-index: 2;
-  position: relative; }
+  height: 64px; }
 
 footer {
   *zoom: 1;
