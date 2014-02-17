@@ -9,9 +9,9 @@
 
 $black: #000000;
 $white: #FFF;
-$grey-purple: #C3C3E5;
+$pastel-pink: #F76AB6;
 $silver-grey: #f5f5f5;
-$pea-green: #76BF41;
+$pea-green: #F76AB6;
 $font-color: #2e3133;
 
 /* Global Reset */
@@ -29,9 +29,7 @@ body {
   background-color: $silver-grey;
 }
 
-p { 
-  margin: 1em 0; 
-}
+
 
 @import "header";
 @import "portfolio";
@@ -233,5 +231,37 @@ p .fa-border{
 }
 
 
+//Font and Sizes
 
+.footer-info, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
+    font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: $font-color;
+    margin: 0% 5% 3% 5%;
+}
+
+.my-details p{
+  margin: 0% 5%;
+}
+
+.footer-info{
+  margin:0%;  
+}
+
+ .my-details h1, .posts a, .content h2 {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 50px;
+    color: $font-color;
+    height: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 2% 0% 0% 5%;
+}
+
+.my-details h1{
+  margin: 3%;
+}
 

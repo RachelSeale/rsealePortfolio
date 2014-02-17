@@ -11,4 +11,4 @@ Also it goes on about claiming that it will be hard to predict what the world wi
 
 I find this video very fascinating on how new media has literally changed the way we do everything.
 
-<iframe class="youtube-video" width="560" height="315" src="//www.youtube.com/embed/_wqm6G5DjaI" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube-vid" width="560" height="315" src="//www.youtube.com/embed/_wqm6G5DjaI" frameborder="0" allowfullscreen></iframe>

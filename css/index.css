@@ -22,9 +22,6 @@ html, body {
 body {
   background-color: whitesmoke; }
 
-p {
-  margin: 1em 0; }
-
 .site {
   text-align: justify;
   margin: 0 auto;
@@ -377,32 +374,8 @@ p .fa-border {
   .post li {
     list-style: disc; }
 
-.image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
-  font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  line-height: 1.6;
-  color: #2e3133;
-  margin: 0% 5% 3% 5%; }
-
-.my-details p {
-  margin: 0% 5%; }
-
-.my-details h1, .posts a, .content h2 {
-  font-family: 'Oswald', sans-serif;
-  text-decoration: none;
-  font-size: 30px;
-  line-height: 50px;
-  color: #2e3133;
-  height: auto;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin: 2% 0% 0% 5%; }
-
-.my-details h1 {
-  margin: 3%; }
-
 .meta {
-  background: #76bf41;
+  background: #f76ab6;
   color: white;
   font-family: 'Oswald', sans-serif;
   margin: 2% 5%;
@@ -439,13 +412,24 @@ footer {
     width: 100%; }
     footer .social-links:last-child {
       margin-right: 0; }
-  footer .bottom-footer {
+  footer .footer-info {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 12px;
     display: block;
     float: left;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    footer .bottom-footer:last-child {
+    footer .footer-info:last-child {
       margin-right: 0; }
+
+.footer-info a {
+  color: #2e3133;
+  text-decoration: none; }
+
+.footer-info a:hover {
+  text-decoration: underline;
+  color: #f76ab6; }
 
 .social-icons img {
   max-width: 100%;
@@ -524,3 +508,30 @@ footer {
           margin-right: 0; }
         .contact-me .contact-details .first-half, .contact-me .contact-details .second-half {
           width: 100%; } }
+
+.footer-info, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
+  font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #2e3133;
+  margin: 0% 5% 3% 5%; }
+
+.my-details p {
+  margin: 0% 5%; }
+
+.footer-info {
+  margin: 0%; }
+
+.my-details h1, .posts a, .content h2 {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 50px;
+  color: #2e3133;
+  height: auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 2% 0% 0% 5%; }
+
+.my-details h1 {
+  margin: 3%; }

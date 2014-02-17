@@ -22,10 +22,23 @@ footer {
     @include span-columns(12); 
 
   }
-  .bottom-footer{
+  .footer-info{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 12px;
     @include span-columns(4);
   }
 
+}
+
+.footer-info a {
+  color: $font-color;
+  text-decoration: none;
+}
+
+.footer-info a:hover{
+  text-decoration: underline;
+  color: $pastel-pink;
 }
 
 .social-icons img
