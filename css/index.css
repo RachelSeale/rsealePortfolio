@@ -365,7 +365,8 @@ p .fa-border {
 .posts {
   margin-top: 5%; }
   .posts a {
-    display: inline-block; }
+    display: inline-block;
+    color: #76bf41; }
   .posts span {
     display: block; }
 
@@ -384,6 +385,9 @@ p .fa-border {
   padding: 1%; }
 
 .youtube-vid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center; }
 
 footer {

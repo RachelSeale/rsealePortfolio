@@ -9,6 +9,7 @@
 
 a{
   display: inline-block;
+  color: $pea-green;
 }
 
 span{
@@ -27,6 +28,8 @@ span{
 }
 
 
+
+
 .meta {
   background: $pea-green;
   color: $white;
@@ -39,5 +42,8 @@ span{
 //YOUTUBE VIDEO
 
 .youtube-vid {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    text-align: center;
 }
