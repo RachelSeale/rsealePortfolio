@@ -1,4 +1,4 @@
-rsealePortfolio-
+rsealePortfolio
 ================
 
-Portfolio 
+Portfolio - Created using Bourbon Neat and Jekyll

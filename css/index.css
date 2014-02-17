@@ -365,8 +365,7 @@ p .fa-border {
 .posts {
   margin-top: 5%; }
   .posts a {
-    display: inline-block;
-    color: #76bf41; }
+    display: inline-block; }
   .posts span {
     display: block; }
 
@@ -376,6 +375,8 @@ p .fa-border {
     padding-left: 1.5em; }
   .post li {
     list-style: disc; }
+  .post a {
+    color: #76bf41; }
 
 .meta {
   background: #76bf41;

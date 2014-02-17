@@ -9,7 +9,6 @@
 
 a{
   display: inline-block;
-  color: $pea-green;
 }
 
 span{
@@ -25,10 +24,10 @@ span{
     li{
       list-style: disc;
     }
+    a{
+      color: $pea-green;
+    }
 }
-
-
-
 
 .meta {
   background: $pea-green;
