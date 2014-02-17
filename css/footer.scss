@@ -1,34 +1,21 @@
-.social-icons {
-  margin-top: -2%;
-  text-align: center;
-}
-
-.social-icons li{
-  display: inline-block;
-  width: 64px;
-  height: 64px;
-}
-
-
 
 footer {
   @include outer-container;
   background-color: $white;
   margin-top: 3%;
   $tablet: new-breakpoint(max-width 760px  4);
-  $mobile: new-breakpoint(max-width 500px 1);
+  $mobile: new-breakpoint(max-width 300px 12);
 
-  .social-links { 
-    @include span-columns(12); 
-
-  }
   .footer-info{
     text-align: center;
     margin-top: 2%;
     font-size: 12px;
     @include span-columns(4);
-  }
 
+    @include media($mobile) {
+      @include span-columns(12);
+    }
+  }
 }
 
 .footer-info a {
@@ -59,4 +46,15 @@ footer {
   -o-filter: grayscale(0);
   -ms-filter: grayscale(0);
   filter: grayscale(0);
+}
+
+.social-icons {
+  margin-top: -2%;
+  text-align: center;
+}
+
+.social-icons li{
+  display: inline-block;
+  width: 64px;
+  height: 64px;
 }

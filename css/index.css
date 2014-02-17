@@ -91,9 +91,11 @@ nav {
     background: rgba(255, 255, 255, 0.6); }
 
   nav.active {
-    max-height: 15em; }
+    max-height: 15em;
+    transition: 1s; }
 
   nav {
+    transition: 1.5s;
     overflow: hidden;
     max-height: 0;
     clear: both;
@@ -375,7 +377,7 @@ p .fa-border {
     list-style: disc; }
 
 .meta {
-  background: #f76ab6;
+  background: #76bf41;
   color: white;
   font-family: 'Oswald', sans-serif;
   margin: 2% 5%;
@@ -383,15 +385,6 @@ p .fa-border {
 
 .youtube-vid {
   text-align: center; }
-
-.social-icons {
-  margin-top: -2%;
-  text-align: center; }
-
-.social-icons li {
-  display: inline-block;
-  width: 64px;
-  height: 64px; }
 
 footer {
   *zoom: 1;
@@ -405,13 +398,6 @@ footer {
     display: table; }
   footer:after {
     clear: both; }
-  footer .social-links {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%; }
-    footer .social-links:last-child {
-      margin-right: 0; }
   footer .footer-info {
     text-align: center;
     margin-top: 2%;
@@ -422,6 +408,14 @@ footer {
     width: 31.76157%; }
     footer .footer-info:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 300px) {
+      footer .footer-info {
+        display: block;
+        float: left;
+        margin-right: 2.35765%;
+        width: 100%; }
+        footer .footer-info:last-child {
+          margin-right: 0; } }
 
 .footer-info a {
   color: #2e3133;
@@ -446,6 +440,15 @@ footer {
   -o-filter: grayscale(0);
   -ms-filter: grayscale(0);
   filter: grayscale(0); }
+
+.social-icons {
+  margin-top: -2%;
+  text-align: center; }
+
+.social-icons li {
+  display: inline-block;
+  width: 64px;
+  height: 64px; }
 
 .contact-details, .twitter {
   padding: 2%;

@@ -89,9 +89,11 @@ ul li{
 
   nav.active {
       max-height: 15em;
+      transition: 1s;
     }
   
   nav {
+      transition: 1.5s;
       overflow: hidden;
       max-height: 0;
       clear: both;
