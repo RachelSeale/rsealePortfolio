@@ -178,6 +178,13 @@ nav {
           line-height: 30px; } }
 
 /*accordian*/
+.plus, .minus {
+  float: right; }
+
+h3, .plus, .minus {
+  display: inline-block;
+  vertical-align: middle; }
+
 .skills-accordian {
   clear: both;
   background: white;
@@ -189,7 +196,7 @@ nav {
   margin: 2%;
   width: 95%;
   /*list items*/ }
-  .skills-accordian h3 {
+  .skills-accordian .acord-header {
     font-size: 12px;
     line-height: 34px;
     padding: 0 10px;

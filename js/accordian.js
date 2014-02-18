@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".skills-accordian h3").click(function () {
+    $(".skills-accordian .acord-header").click(function () {
 
 
    $(".skills-accordian ul .skills-inner").slideUp();
