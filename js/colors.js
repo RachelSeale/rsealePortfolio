@@ -8,7 +8,7 @@ function randomColor () {
       comp: '#C4F5CD'
     },{
       main: '#FF6691',
-      comp: '#7762FC'
+      comp: '#FAC975'
     },{
       main: '#F76AB6',
       comp: '#F7BC6A'
