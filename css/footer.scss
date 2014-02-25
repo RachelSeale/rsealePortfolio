@@ -31,6 +31,7 @@ footer {
 .social-icons img
 {
   max-width: 100%;
+  display: block;
   -webkit-transition: 0.30s;
   -webkit-filter: grayscale(1);
   -moz-filter: grayscale(1);
@@ -39,8 +40,7 @@ footer {
   filter: grayscale(1);
 }
 
-.social-icons img:hover
-{
+.social-icons img:hover{
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
   -o-filter: grayscale(0);
@@ -51,6 +51,9 @@ footer {
 .social-icons {
   margin-top: -2%;
   text-align: center;
+  a{
+    display: block;
+  }
 }
 
 .social-icons li{
@@ -59,7 +62,7 @@ footer {
   height: 64px;
 }
 
-.touch .social-icons img {
+.touch .social-icons img{
     -webkit-filter: grayscale(0);
   }
 

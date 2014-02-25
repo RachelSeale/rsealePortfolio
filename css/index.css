@@ -439,6 +439,7 @@ footer {
 
 .social-icons img {
   max-width: 100%;
+  display: block;
   -webkit-transition: 0.30s;
   -webkit-filter: grayscale(1);
   -moz-filter: grayscale(1);
@@ -456,6 +457,8 @@ footer {
 .social-icons {
   margin-top: -2%;
   text-align: center; }
+  .social-icons a {
+    display: block; }
 
 .social-icons li {
   display: inline-block;
@@ -543,6 +546,7 @@ footer {
 .my-details h1, .posts a, .content h2 {
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
+  text-align: start;
   font-size: 30px;
   line-height: 50px;
   color: #2e3133;
@@ -553,3 +557,6 @@ footer {
 
 .my-details h1 {
   margin: 3%; }
+
+.content h2 {
+  text-align: center; }

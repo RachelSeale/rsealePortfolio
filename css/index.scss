@@ -256,6 +256,7 @@ p .fa-border{
  .my-details h1, .posts a, .content h2 {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
+    text-align: start;
     font-size: 30px;
     line-height: 50px;
     color: $font-color;
@@ -269,3 +270,6 @@ p .fa-border{
   margin: 3%;
 }
 
+.content h2{
+  text-align: center;
+}
