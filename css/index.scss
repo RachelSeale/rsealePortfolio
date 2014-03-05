@@ -33,6 +33,7 @@ body {
 
 @import "header";
 @import "portfolio";
+@import "contact";
 
 /*accordian*/
 
@@ -123,6 +124,9 @@ p .fa-border{
 
     @include media($mobile) {
       @include span-columns(1);
+      .page-title{
+        font-size: 35px;
+      }
 
     }
   }
@@ -204,35 +208,6 @@ p .fa-border{
     border: 1px solid #efefef;
 }
 
-.contact-me {
-  @include outer-container; 
-  $tablet: new-breakpoint(max-width 980px 1);
-  $mobile: new-breakpoint(max-width 600px 1);
-   
-  .twitter  { @include span-columns(4); 
-    @include media($tablet) {
-      margin-top: 2%;
-    @include span-columns(1);
-    }
-  }
-
-  .contact-details{ @include span-columns(8);
-    @include media($tablet) {
-    @include span-columns(1);
-      .about-me .my-details {
-          float: none;
-          width: 80%;
-          margin: auto;
-        }
-    }
-    @include media($mobile) {
-    @include span-columns(1);
-     .first-half, .second-half{
-         width: 100%;
-      }   
-    }
-  }
-}
 
 
 //Font and Sizes

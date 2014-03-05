@@ -1,11 +1,14 @@
 
-
 .site {
   text-align: justify;
   margin: 0 auto;
   line-height: 1.5;
 }
 
+//DELETE THIS AFTER
+.header{
+  display: none !important;
+}
 
 .header a {
   font-weight: bold;

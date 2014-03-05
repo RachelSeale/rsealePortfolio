@@ -27,6 +27,9 @@ body {
   margin: 0 auto;
   line-height: 1.5; }
 
+.header {
+  display: none !important; }
+
 .header a {
   font-weight: bold;
   text-decoration: none; }
@@ -177,6 +180,87 @@ nav {
           font-size: 25px;
           line-height: 30px; } }
 
+* {
+  font-family: Myriad Pro;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: whitesmoke; }
+
+h1 {
+  text-align: center; }
+
+label {
+  font-size: 12px; }
+
+input {
+  padding-left: 2%;
+  width: 100%;
+  height: 40px;
+  border: 1px solid;
+  margin-bottom: 5%; }
+
+.message {
+  height: 120px; }
+
+.contact-me {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .contact-me:before, .contact-me:after {
+    content: " ";
+    display: table; }
+  .contact-me:after {
+    clear: both; }
+  .contact-me .twitter {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .contact-me .twitter:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 740px) {
+      .contact-me .twitter {
+        margin-top: 2%;
+        display: block;
+        float: left;
+        margin-right: 38.19821%;
+        width: 100%; }
+        .contact-me .twitter:last-child {
+          margin-right: 0; } }
+  .contact-me .contact-details {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    .contact-me .contact-details:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 740px) {
+      .contact-me .contact-details {
+        display: block;
+        float: left;
+        margin-right: 38.19821%;
+        width: 100%; }
+        .contact-me .contact-details:last-child {
+          margin-right: 0; }
+        .contact-me .contact-details .about-me .my-details {
+          float: none;
+          width: 80%;
+          margin: auto; } }
+    @media screen and (max-width: 600px) {
+      .contact-me .contact-details {
+        display: block;
+        float: left;
+        margin-right: 38.19821%;
+        width: 100%; }
+        .contact-me .contact-details:last-child {
+          margin-right: 0; }
+        .contact-me .contact-details .first-half, .contact-me .contact-details .second-half {
+          width: 100%; } }
+
 /*accordian*/
 .plus, .minus {
   float: right; }
@@ -270,7 +354,9 @@ p .fa-border {
         margin-right: 38.19821%;
         width: 100%; }
         .site .header:last-child {
-          margin-right: 0; } }
+          margin-right: 0; }
+        .site .header .page-title {
+          font-size: 35px; } }
   .site .content {
     display: block;
     float: left;
@@ -473,62 +559,6 @@ footer {
   height: auto;
   background-color: white;
   border: 1px solid #efefef; }
-
-.contact-me {
-  *zoom: 1;
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  .contact-me:before, .contact-me:after {
-    content: " ";
-    display: table; }
-  .contact-me:after {
-    clear: both; }
-  .contact-me .twitter {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    .contact-me .twitter:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 980px) {
-      .contact-me .twitter {
-        margin-top: 2%;
-        display: block;
-        float: left;
-        margin-right: 38.19821%;
-        width: 100%; }
-        .contact-me .twitter:last-child {
-          margin-right: 0; } }
-  .contact-me .contact-details {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
-    .contact-me .contact-details:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 980px) {
-      .contact-me .contact-details {
-        display: block;
-        float: left;
-        margin-right: 38.19821%;
-        width: 100%; }
-        .contact-me .contact-details:last-child {
-          margin-right: 0; }
-        .contact-me .contact-details .about-me .my-details {
-          float: none;
-          width: 80%;
-          margin: auto; } }
-    @media screen and (max-width: 600px) {
-      .contact-me .contact-details {
-        display: block;
-        float: left;
-        margin-right: 38.19821%;
-        width: 100%; }
-        .contact-me .contact-details:last-child {
-          margin-right: 0; }
-        .contact-me .contact-details .first-half, .contact-me .contact-details .second-half {
-          width: 100%; } }
 
 .footer-info, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
   font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
