@@ -1,4 +1,4 @@
-<?php if (isset($_POST['message'])) {
+<?php 
 
 	$name = (isset($_POST['name'])) ? $_POST['name'] : "" ;
 	$email = (isset($_POST['email'])) ? $_POST['email'] : "" ;
@@ -14,5 +14,5 @@
 		echo "<p class='error'>Sorry $name. Message delivery failed. Please try again.</p>";
 	}
  
-}
+
 ?>
