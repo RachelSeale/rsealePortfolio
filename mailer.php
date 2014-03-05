@@ -3,9 +3,8 @@
    $name = (isset($_POST['name'])) ? $_POST['name'] : "" ;
    $email = (isset($_POST['email'])) ? $_POST['email'] : "" ;
    $message = (isset($_POST['message'])) ? $_POST['message'] : "" ;
-   $honey = (isset($_POST['username'])) ? $_POST['username'] : "" ;
 
-   if($name !== "" && $email !== "" && $message !== "" && $honey == ""){   
+   if($name !== "" && $email !== "" && $message !== ""){   
     $to = "rvseale@sky.com";
     $subject = "rachelseale.co.uk query from ".$name." (".$email.")";
     $body = "To Rachel\n\n".$message."\n\nThanks,\n\n".$name.".";
