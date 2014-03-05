@@ -6,7 +6,7 @@
    $honey = (isset($_POST['username'])) ? $_POST['username'] : "" ;
 
    if($name !== "" && $email !== "" && $message !== "" && $honey == ""){   
-    $to = "rvseale@msky.com";
+    $to = "rvseale@sky.com";
     $subject = "rachelseale.co.uk query from ".$name." (".$email.")";
     $body = "To Rachel\n\n".$message."\n\nThanks,\n\n".$name.".";
     $headers = "From: ".$email;

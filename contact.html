@@ -11,18 +11,13 @@ class: home
 			     <h1>Contact Me</h1>
 					   <form name="contact" method="post" action="mailer.php">
 					    <ul class="form-fields">
-					     <li>
+			
+					      <label for="full-name">Name</label>
 					      <input type="text" name="name" id="full-name" class="field" placeholder="Full name" required />
-					      <label for="full-name">Your name</label>
-					     <li class="honey">
-					      <input type="text" name="username" id="username" class="username" placeholder="Your username" />
-					      <label for="full-name">Your username</label>
-					     <li>
+					      <label for="email-address">Email</label>
 					      <input type="email" name="email" id="email-address" class="field" placeholder="name@domain.com" required />
-					      <label for="email-address">Email address</label>
-					     <li>
-					      <textarea name="message" id="contact-message" rows="5" class="field multiline" placeholder="Your message here..." required /></textarea>
-					      <label for="contact-message">Your message</label>
+					      <label for="message">Message</label>					   
+					      <input name="message" class="message" id="contact-message" rows="5" class="field multiline" placeholder="Your message here..." required /></input>
 					    </ul>
 					    <button type="submit" class="button">Send Message</button>
 					   </form>
