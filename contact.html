@@ -7,30 +7,30 @@ class: home
 <div id="contact">
 	<section class="contact-me">
     	<div class="contact-details">
-	    	<div class="sign-up-form">
-				    <h1>Contact Me</h1>
-				      <form>
-				        <div class="form-field">
-				          <label>Name:</label> 
-				          <input type="text" name="firstname">
-				        </div>
-				        <div class="form-field">
-				          <label>Email:</label>
-				          <input type="text" name="customer_mail">
-				        </div>
-				        <div class="form-field">
-				          <label>Message:</label>
-				          <input type="text" name="message" class="message">
-				        </div>
-				    <input type="submit" name="submit" value="Submit" class="submit-button" action:"send_contact.php"/>
+    		<div class="sign-up-form">
+			     <h1>Contact Me</h1>
+			  	<form class="email" action="mailer.php" method="post">
+					<p>Name:</p>
+					<input type="text" name="name" />
+					<p>E-mail:</p>
+					<input type="text" name="customer_mail" />
+					<p>Subject:</p>
+					<input type="text" name="subject" />
+					<p>Message:</p>
+					<input type="message" class:"message" name="subject" />
+					<input class="send" type="submit" value="Send">
 				</form>
-			</div>	
+			    </div>
+    		
 		</div>
 
 		<div class="twitter">
 
 		</div>
 	</section>
+
+</body>
+</html> 
 
 </div>
 
