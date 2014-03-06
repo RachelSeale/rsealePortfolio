@@ -27,9 +27,6 @@ body {
   margin: 0 auto;
   line-height: 1.5; }
 
-.header {
-  display: none !important; }
-
 .header a {
   font-weight: bold;
   text-decoration: none; }
@@ -179,18 +176,6 @@ nav {
         .portfolio-content .portfolio-work .image-overlay h2 {
           font-size: 25px;
           line-height: 30px; } }
-
-* {
-  font-family: Myriad Pro;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-body {
-  background-color: whitesmoke; }
-
-h1 {
-  text-align: center; }
 
 label {
   font-size: 12px; }

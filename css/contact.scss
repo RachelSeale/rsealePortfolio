@@ -1,17 +1,3 @@
-$font: Myriad Pro;
-
-*{
-  font-family: $font; 
-  @include box-sizing(border-box);
-}
-
-body{
-   background-color: $silver-grey;
-}
-
-h1{
-  text-align: center;
-}
 
 //Form styling
 
