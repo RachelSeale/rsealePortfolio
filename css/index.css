@@ -279,6 +279,7 @@ h3, .plus, .minus {
 .skills-accordian ul p {
   color: #2e3133;
   text-decoration: none;
+  padding-top: 2%;
   font-size: 12px;
   transition: all 0.15s; }
 
@@ -287,6 +288,10 @@ h3, .plus, .minus {
 
 .skills-accordian li.active ul {
   display: block; }
+
+.skills-inner a {
+  font-weight: bold;
+  text-decoration: none; }
 
 .ratings {
   font-size: 13px;
