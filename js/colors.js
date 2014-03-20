@@ -26,5 +26,5 @@ $('.work-skills li').css('background', myColor.comp);
 $('.fa-star, .fa-star-half-o, .fa-star-o').css('color', myColor.comp);
 $('input').css('border-color', myColor.comp);
 $('.skills-inner a').css('color', myColor.main);
-
-
+$('#blog a').css('color', myColor.comp);
+$('#blog span').css('color', myColor.main);

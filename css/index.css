@@ -445,6 +445,9 @@ p .fa-border {
 /* Post
 /*
 /*****************************************************************************/
+#blog {
+  background-color: white; }
+
 .posts {
   margin-top: 5%; }
   .posts a {
