@@ -300,6 +300,9 @@ h3, .plus, .minus {
 p .fa-border {
   border-style: none; }
 
+.about-me img {
+  max-width: 100%; }
+
 /*****************************************************************************/
 /*
 /* Bourbon
@@ -368,7 +371,7 @@ p .fa-border {
 /* Home Page
 /*
 /*****************************************************************************/
-.my-details, .my-skills {
+.my-details, .about-me {
   padding: 2%;
   height: auto;
   background-color: white;
@@ -384,21 +387,21 @@ p .fa-border {
     display: table; }
   .about-me:after {
     clear: both; }
-  .about-me .my-skills {
+  .about-me .about-me {
     display: block;
     float: left;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    .about-me .my-skills:last-child {
+    .about-me .about-me:last-child {
       margin-right: 0; }
     @media screen and (max-width: 980px) {
-      .about-me .my-skills {
+      .about-me .about-me {
         margin-top: 2%;
         display: block;
         float: left;
         margin-right: 38.19821%;
         width: 100%; }
-        .about-me .my-skills:last-child {
+        .about-me .about-me:last-child {
           margin-right: 0; } }
   .about-me .my-details {
     display: block;
@@ -553,7 +556,7 @@ footer {
   background-color: white;
   border: 1px solid #efefef; }
 
-.footer-info, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
+.footer-info, .about-me ul, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
   font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   line-height: 1.6;

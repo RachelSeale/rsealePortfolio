@@ -103,6 +103,10 @@ p .fa-border{
   border-style: none;
 }
 
+.about-me img{
+  max-width: 100%;
+}
+
 /*****************************************************************************/
 /*
 /* Bourbon
@@ -149,7 +153,7 @@ p .fa-border{
 /*
 /*****************************************************************************/
 
- .my-details, .my-skills{
+ .my-details, .about-me{
   padding: 2%;
   height: auto;
   background-color: $white;
@@ -163,7 +167,7 @@ p .fa-border{
    
  
 
-  .my-skills { @include span-columns(4); 
+  .about-me { @include span-columns(4); 
     @include media($tablet) {
       margin-top: 2%;
         @include span-columns(1);
@@ -218,7 +222,7 @@ p .fa-border{
 
 //Font and Sizes
 
-.footer-info, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
+.footer-info, .about-me ul, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
     font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     line-height: 1.6;
