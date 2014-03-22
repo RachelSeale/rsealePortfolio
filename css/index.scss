@@ -49,6 +49,7 @@ h3, .plus, .minus {
 .skills-accordian {
     clear: both;
     background: $white;
+    border: 1px solid #efefef;
     width: 80%;
     font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     margin: 3%;
@@ -104,6 +105,7 @@ p .fa-border{
 
 .about-me img{
   max-width: 100%;
+  padding: 5%;
 }
 
 /*****************************************************************************/
@@ -113,7 +115,7 @@ p .fa-border{
 /*****************************************************************************/
 .site {
   @include outer-container;
-  $tablet: new-breakpoint(max-width 760px  4);
+  $tablet: new-breakpoint(max-width 660px  4);
   $mobile: new-breakpoint(max-width 500px 1);
 
   .header { @include span-columns(12); 
@@ -152,28 +154,28 @@ p .fa-border{
 /*
 /*****************************************************************************/
 
- .my-details, .about-me{
+ .my-details, .about-details{
   padding: 2%;
   height: auto;
   background-color: $white;
   border: 1px solid #efefef;
 }
 
-.about-me {
+.welcome-text {
   @include outer-container; 
-  $tablet: new-breakpoint(max-width 980px 1);
+  $tablet: new-breakpoint(max-width 660px 1);
   $mobile: new-breakpoint(max-width 600px 1);
    
- 
-
-  .about-me { @include span-columns(4); 
+  .about-me  { @include span-columns(4); 
+    background-color: $white;
     @include media($tablet) {
       margin-top: 2%;
-        @include span-columns(1);
+    @include span-columns(1);
     }
   }
 
-  .my-details { @include span-columns(8);
+  .about-details{ @include span-columns(8);
+    background-color: $white;
     @include media($tablet) {
     @include span-columns(1);
       .about-me .my-details {
@@ -183,9 +185,9 @@ p .fa-border{
         }
     }
     @include media($mobile) {
-      @include span-columns(1);
-         .first-half, .second-half{
-             width: 100%;
+    @include span-columns(1);
+     .first-half, .second-half{
+         width: 100%;
       }   
     }
   }
@@ -221,7 +223,7 @@ p .fa-border{
 
 //Font and Sizes
 
-.icons p, .footer-info, .about-me ul, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
+.about-details p, .icons p, .footer-info, .about-me ul, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
     font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     line-height: 1.6;
@@ -237,7 +239,7 @@ p .fa-border{
   margin:0%;  
 }
 
-.contact-details h1, .my-details h1, .posts a, .content h2 {
+.contact-details h1, .about-details h1, .posts a, .content h2 {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     text-align: start;

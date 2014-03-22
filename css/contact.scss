@@ -34,6 +34,7 @@ input{
   $mobile: new-breakpoint(max-width 600px 1);
    
   .about-me  { @include span-columns(4); 
+    background-color: $white;
     @include media($tablet) {
       margin-top: 2%;
     @include span-columns(1);

@@ -213,7 +213,8 @@ input {
     display: block;
     float: left;
     margin-right: 2.35765%;
-    width: 31.76157%; }
+    width: 31.76157%;
+    background-color: white; }
     .contact-me .about-me:last-child {
       margin-right: 0; }
     @media screen and (max-width: 740px) {
@@ -266,6 +267,7 @@ h3, .plus, .minus {
 .skills-accordian {
   clear: both;
   background: white;
+  border: 1px solid #efefef;
   width: 80%;
   font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 3%;
@@ -309,7 +311,8 @@ p .fa-border {
   border-style: none; }
 
 .about-me img {
-  max-width: 100%; }
+  max-width: 100%;
+  padding: 5%; }
 
 /*****************************************************************************/
 /*
@@ -334,7 +337,7 @@ p .fa-border {
     text-align: center; }
     .site .header:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 660px) {
       .site .header {
         display: block;
         float: left;
@@ -379,66 +382,68 @@ p .fa-border {
 /* Home Page
 /*
 /*****************************************************************************/
-.my-details, .about-me {
+.my-details, .about-details {
   padding: 2%;
   height: auto;
   background-color: white;
   border: 1px solid #efefef; }
 
-.about-me {
+.welcome-text {
   *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .about-me:before, .about-me:after {
+  .welcome-text:before, .welcome-text:after {
     content: " ";
     display: table; }
-  .about-me:after {
+  .welcome-text:after {
     clear: both; }
-  .about-me .about-me {
+  .welcome-text .about-me {
     display: block;
     float: left;
     margin-right: 2.35765%;
-    width: 31.76157%; }
-    .about-me .about-me:last-child {
+    width: 31.76157%;
+    background-color: white; }
+    .welcome-text .about-me:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 980px) {
-      .about-me .about-me {
+    @media screen and (max-width: 660px) {
+      .welcome-text .about-me {
         margin-top: 2%;
         display: block;
         float: left;
         margin-right: 38.19821%;
         width: 100%; }
-        .about-me .about-me:last-child {
+        .welcome-text .about-me:last-child {
           margin-right: 0; } }
-  .about-me .my-details {
+  .welcome-text .about-details {
     display: block;
     float: left;
     margin-right: 2.35765%;
-    width: 65.88078%; }
-    .about-me .my-details:last-child {
+    width: 65.88078%;
+    background-color: white; }
+    .welcome-text .about-details:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 980px) {
-      .about-me .my-details {
+    @media screen and (max-width: 660px) {
+      .welcome-text .about-details {
         display: block;
         float: left;
         margin-right: 38.19821%;
         width: 100%; }
-        .about-me .my-details:last-child {
+        .welcome-text .about-details:last-child {
           margin-right: 0; }
-        .about-me .my-details .about-me .my-details {
+        .welcome-text .about-details .about-me .my-details {
           float: none;
           width: 80%;
           margin: auto; } }
     @media screen and (max-width: 600px) {
-      .about-me .my-details {
+      .welcome-text .about-details {
         display: block;
         float: left;
         margin-right: 38.19821%;
         width: 100%; }
-        .about-me .my-details:last-child {
+        .welcome-text .about-details:last-child {
           margin-right: 0; }
-        .about-me .my-details .first-half, .about-me .my-details .second-half {
+        .welcome-text .about-details .first-half, .welcome-text .about-details .second-half {
           width: 100%; } }
 
 .first-half {
@@ -564,7 +569,7 @@ footer {
   background-color: white;
   border: 1px solid #efefef; }
 
-.icons p, .footer-info, .about-me ul, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
+.about-details p, .icons p, .footer-info, .about-me ul, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
   font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   line-height: 1.6;
@@ -577,7 +582,7 @@ footer {
 .footer-info {
   margin: 0%; }
 
-.contact-details h1, .my-details h1, .posts a, .content h2 {
+.contact-details h1, .about-details h1, .posts a, .content h2 {
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
   text-align: start;
