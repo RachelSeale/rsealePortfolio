@@ -5,6 +5,17 @@ label{
   font-size: 12px;
 }
 
+.icons img{
+  max-width: 100%;
+  width: 10%;
+  margin: 2% 0% 0% 5%;
+}
+
+.icons p {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
 input{
   padding-left: 2%;
   width: 100%;
@@ -22,7 +33,7 @@ input{
   $tablet: new-breakpoint(max-width 740px 1);
   $mobile: new-breakpoint(max-width 600px 1);
    
-  .twitter  { @include span-columns(4); 
+  .about-me  { @include span-columns(4); 
     @include media($tablet) {
       margin-top: 2%;
     @include span-columns(1);
