@@ -1,0 +1,17 @@
+---
+layout: post
+title:  Nearly Half way...
+date:   2013-12-10 09:25:14
+categories: Posts
+---
+
+I am nearly half was through my Internship, it is crazy how fast time has gone by. I am still loving it, even though I now i get up in the dark and go home in the dark, but it is all worth it. 
+
+I have learnt so much and realised how useful a year out placement is. I feel I have learnt so much more than I ever have in this space of time. The things I'm loving the most is all the clients that I get to involved with. It is soooo weird, as all the websites I have use to buy their products or services, I am now I'm helping to fix and build them! Its crazy.
+
+I am also being introduced to all new ways of writing code and all the plugins and handlebars that help you build a website so much quicker and more efficient. As i have been involved in some in-house work as well. They are creating a UI Type Kit which allows to have all the elements of website in basic form, which will allow a quicker build of website, as all the modules and elements will be available to hand. I so far have contributed with a; slideshow, carousel, product items and 6 different types of navigation.  So from doing the navigations for the kit, I have been given the job to do the companies main website, to add sub-nav to the main navigation of the website!! 
+
+But the best part of my internship is the workplace itself, its full of great people and making my time here enjoyable. Its such a social place to be apart of and everyone seems more like friends than colleagues which is great. I also went to a karaoke night, which was probably the most awkward night of my life but so much fun at the same time. 
+
+
+But just form this short space of time it has made me realise that I would and happily work in this sector for the rest of my career, as each day I am learning something new. My next task is getting my JavaScript skills up to scratch! 

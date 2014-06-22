@@ -1,0 +1,12 @@
+---
+layout: post
+title:  My first Codepen
+date:   2013-10-28 13:40:34
+categories: Posts
+---
+
+CodePen is a website that allows designers and developers to share and express their work and code. It is in more detail a code editor that allows you to write your HTML, CSS and JavaScript right in your browser with instant previews of the code. It also allows you to have add-ons like jQuery and SCSS or HAML. 
+
+[My first Codepen](http://cdpn.io/wBqyu) - This is one of my CodePens and I am overwhelmed with the views and likes it has received.  I can't take whole credit for it as I was inspired by another developers pen which i do link to.
+
+Let me know what you think!

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  A month on and I'm still standing
+date:   2013-07-31 17:10:58
+categories: Posts
+---
+
+I actually made it through my first month of having a real job! Working 9-5 5 days a week was definitely a shock to my system. The early starts and long days, so not use to that being a student!
+
+My first month have really flown by, I cant believe I received my first payslip already :)!! Even more is that the amount I have already learned for just being here just over 3 weeks. Seeing how a real companies work and the contact with the clients. But also being able to be involved in the team and seeing my work being displayed on real live websites, for big companies. 
+
+Within my first week I was chucked into a massive project that was planned to go live within weeks. So once I was set up on Mac, I was given aload of Html and CSS bugs that I had to make my way through. Some were easy where I just had to fixed the width or change the positioning! But some took days and I didn't realise how a little issue seems can cause so much damage! But I got there in the end. But to commit my bug fixes I came into contact with GitHub! I and GitHub do not understand each other! I always did something to upset it, and had to annoy another FED (front end developer) to come and fix it for me, this happened  shall I shall over 10 times! But after that I can now officially commit my own work through terminal! Yay! 
+
+Looking forward to what the next year brings ...
