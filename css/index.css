@@ -3,24 +3,19 @@
 /* Common
 /*
 /*****************************************************************************/
-* {
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-html, body {
-  height: 100%; }
-
-body {
-  background-color: whitesmoke; }
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
 
 .site {
   text-align: justify;
@@ -84,8 +79,8 @@ nav {
     width: 2.3em;
     margin: 0 12%;
     height: 0.35em;
-    background: whitesmoke;
-    box-shadow: 0 0.65em 0 0 whitesmoke, 0 1.3em 0 0 whitesmoke; }
+    background: #f5f5f5;
+    box-shadow: 0 0.65em 0 0 #f5f5f5, 0 1.3em 0 0 #f5f5f5; }
 
   nav li:hover {
     background: rgba(255, 255, 255, 0.6); }
@@ -101,7 +96,7 @@ nav {
     clear: both;
     position: relative;
     width: 100%;
-    background-color: whitesmoke; }
+    background-color: #f5f5f5; }
     nav li {
       display: block;
       padding: 1em;
@@ -132,12 +127,12 @@ nav {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
   .portfolio-content .portfolio-work {
-    display: block;
     float: left;
+    display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-bottom: 2%;
-    background-color: white; }
+    background-color: #FFF; }
     .portfolio-content .portfolio-work:last-child {
       margin-right: 0; }
     .portfolio-content .portfolio-work:nth-child(2n) {
@@ -152,8 +147,8 @@ nav {
         font-size: 14px; } }
     @media screen and (max-width: 615px) {
       .portfolio-content .portfolio-work {
-        display: block;
         float: left;
+        display: block;
         margin-right: 2.35765%;
         width: 100%; }
         .portfolio-content .portfolio-work:last-child {
@@ -165,8 +160,8 @@ nav {
           font-size: 18px; } }
     @media screen and (max-width: 400px) {
       .portfolio-content .portfolio-work {
-        display: block;
         float: left;
+        display: block;
         margin-right: 2.35765%;
         width: 100%; }
         .portfolio-content .portfolio-work:last-child {
@@ -200,43 +195,41 @@ input {
   height: 120px; }
 
 .contact-me {
-  *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .contact-me:before, .contact-me:after {
-    content: " ";
-    display: table; }
   .contact-me:after {
+    content: "";
+    display: table;
     clear: both; }
   .contact-me .about-me {
-    display: block;
     float: left;
+    display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
-    background-color: white; }
+    background-color: #FFF; }
     .contact-me .about-me:last-child {
       margin-right: 0; }
     @media screen and (max-width: 740px) {
       .contact-me .about-me {
         margin-top: 2%;
-        display: block;
         float: left;
+        display: block;
         margin-right: 38.19821%;
         width: 100%; }
         .contact-me .about-me:last-child {
           margin-right: 0; } }
   .contact-me .contact-details {
-    display: block;
     float: left;
+    display: block;
     margin-right: 2.35765%;
     width: 65.88078%; }
     .contact-me .contact-details:last-child {
       margin-right: 0; }
     @media screen and (max-width: 740px) {
       .contact-me .contact-details {
-        display: block;
         float: left;
+        display: block;
         margin-right: 38.19821%;
         width: 100%; }
         .contact-me .contact-details:last-child {
@@ -247,14 +240,151 @@ input {
           margin: auto; } }
     @media screen and (max-width: 600px) {
       .contact-me .contact-details {
-        display: block;
         float: left;
+        display: block;
         margin-right: 38.19821%;
         width: 100%; }
         .contact-me .contact-details:last-child {
           margin-right: 0; }
         .contact-me .contact-details .first-half, .contact-me .contact-details .second-half {
           width: 100%; } }
+
+/*****************************************************************************/
+/*
+/* Post
+/*
+/*****************************************************************************/
+#blog {
+  background-color: #FFF; }
+
+.posts {
+  margin-top: 5%; }
+  .posts a {
+    display: inline-block; }
+  .posts span {
+    display: block; }
+
+.post {
+  padding: 0.5%; }
+  .post ul {
+    padding-left: 1.5em; }
+  .post li {
+    list-style: disc; }
+  .post a {
+    color: #76BF41; }
+
+.meta {
+  background: #76BF41;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  margin: 2% 5%;
+  padding: 1%; }
+
+.youtube-vid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.post h3, .post h4 {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  line-height: 50px;
+  color: #2e3133;
+  height: auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 2% 0% 0% 5%;
+  font-size: 20px; }
+
+.post h4 {
+  font-size: 15px; }
+
+pre {
+  background-color: #E0E0E0;
+  margin: 0% 4% 3% 5%; }
+
+footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  margin-top: 3%; }
+  footer:after {
+    content: "";
+    display: table;
+    clear: both; }
+  footer .footer-info {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 12px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    footer .footer-info:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 300px) {
+      footer .footer-info {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        footer .footer-info:last-child {
+          margin-right: 0; } }
+
+.footer-info a {
+  color: #2e3133;
+  text-decoration: none; }
+
+.footer-info a:hover {
+  text-decoration: underline;
+  color: #F76AB6; }
+
+.social-icons img {
+  max-width: 100%;
+  display: block;
+  -webkit-transition: 0.30s;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  filter: grayscale(1); }
+
+.social-icons img:hover {
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  filter: grayscale(0); }
+
+.social-icons {
+  margin-top: -2%;
+  text-align: center; }
+  .social-icons a {
+    display: block; }
+
+.social-icons li {
+  display: inline-block;
+  width: 64px;
+  height: 64px; }
+
+.touch .social-icons img {
+  -webkit-filter: grayscale(0); }
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #f5f5f5; }
 
 /*accordian*/
 .plus, .minus {
@@ -266,7 +396,7 @@ h3, .plus, .minus {
 
 .skills-accordian {
   clear: both;
-  background: white;
+  background: #FFF;
   border: 1px solid #efefef;
   width: 80%;
   font-family: "jaf-facitweb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -281,7 +411,7 @@ h3, .plus, .minus {
     padding: 0 10px;
     text-transform: uppercase;
     /*fallback for browsers not supporting gradients*/
-    background-color: white;
+    background-color: #FFF;
     border: 1px solid #efefef; }
   .skills-accordian li {
     list-style-type: none; }
@@ -320,18 +450,16 @@ p .fa-border {
 /*
 /*****************************************************************************/
 .site {
-  *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .site:before, .site:after {
-    content: " ";
-    display: table; }
   .site:after {
+    content: "";
+    display: table;
     clear: both; }
   .site .header {
-    display: block;
     float: left;
+    display: block;
     margin-right: 2.35765%;
     width: 100%;
     text-align: center; }
@@ -339,8 +467,8 @@ p .fa-border {
       margin-right: 0; }
     @media screen and (max-width: 660px) {
       .site .header {
-        display: block;
         float: left;
+        display: block;
         margin-right: 7.42297%;
         width: 100%; }
         .site .header:last-child {
@@ -353,8 +481,8 @@ p .fa-border {
           font-size: 30px; } }
     @media screen and (max-width: 500px) {
       .site .header {
-        display: block;
         float: left;
+        display: block;
         margin-right: 38.19821%;
         width: 100%; }
         .site .header:last-child {
@@ -362,16 +490,16 @@ p .fa-border {
         .site .header .page-title {
           font-size: 35px; } }
   .site .content {
-    display: block;
     float: left;
+    display: block;
     margin-right: 2.35765%;
     width: 100%; }
     .site .content:last-child {
       margin-right: 0; }
     @media screen and (max-width: 500px) {
       .site .content {
-        display: block;
         float: left;
+        display: block;
         margin-right: 38.19821%;
         width: 100%; }
         .site .content:last-child {
@@ -385,48 +513,46 @@ p .fa-border {
 .my-details, .about-details {
   padding: 2%;
   height: auto;
-  background-color: white;
+  background-color: #FFF;
   border: 1px solid #efefef; }
 
 .welcome-text {
-  *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .welcome-text:before, .welcome-text:after {
-    content: " ";
-    display: table; }
   .welcome-text:after {
+    content: "";
+    display: table;
     clear: both; }
   .welcome-text .about-me {
-    display: block;
     float: left;
+    display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
-    background-color: white; }
+    background-color: #FFF; }
     .welcome-text .about-me:last-child {
       margin-right: 0; }
     @media screen and (max-width: 660px) {
       .welcome-text .about-me {
         margin-top: 2%;
-        display: block;
         float: left;
+        display: block;
         margin-right: 38.19821%;
         width: 100%; }
         .welcome-text .about-me:last-child {
           margin-right: 0; } }
   .welcome-text .about-details {
-    display: block;
     float: left;
+    display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
-    background-color: white; }
+    background-color: #FFF; }
     .welcome-text .about-details:last-child {
       margin-right: 0; }
     @media screen and (max-width: 660px) {
       .welcome-text .about-details {
-        display: block;
         float: left;
+        display: block;
         margin-right: 38.19821%;
         width: 100%; }
         .welcome-text .about-details:last-child {
@@ -437,8 +563,8 @@ p .fa-border {
           margin: auto; } }
     @media screen and (max-width: 600px) {
       .welcome-text .about-details {
-        display: block;
         float: left;
+        display: block;
         margin-right: 38.19821%;
         width: 100%; }
         .welcome-text .about-details:last-child {
@@ -456,117 +582,10 @@ p .fa-border {
   float: right;
   margin-bottom: 5%; }
 
-/*****************************************************************************/
-/*
-/* Post
-/*
-/*****************************************************************************/
-#blog {
-  background-color: white; }
-
-.posts {
-  margin-top: 5%; }
-  .posts a {
-    display: inline-block; }
-  .posts span {
-    display: block; }
-
-.post {
-  padding: 0.5%; }
-  .post ul {
-    padding-left: 1.5em; }
-  .post li {
-    list-style: disc; }
-  .post a {
-    color: #76bf41; }
-
-.meta {
-  background: #76bf41;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  margin: 2% 5%;
-  padding: 1%; }
-
-.youtube-vid {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; }
-
-footer {
-  *zoom: 1;
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-  margin-top: 3%; }
-  footer:before, footer:after {
-    content: " ";
-    display: table; }
-  footer:after {
-    clear: both; }
-  footer .footer-info {
-    text-align: center;
-    margin-top: 2%;
-    font-size: 12px;
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    footer .footer-info:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 300px) {
-      footer .footer-info {
-        display: block;
-        float: left;
-        margin-right: 2.35765%;
-        width: 100%; }
-        footer .footer-info:last-child {
-          margin-right: 0; } }
-
-.footer-info a {
-  color: #2e3133;
-  text-decoration: none; }
-
-.footer-info a:hover {
-  text-decoration: underline;
-  color: #f76ab6; }
-
-.social-icons img {
-  max-width: 100%;
-  display: block;
-  -webkit-transition: 0.30s;
-  -webkit-filter: grayscale(1);
-  -moz-filter: grayscale(1);
-  -o-filter: grayscale(1);
-  -ms-filter: grayscale(1);
-  filter: grayscale(1); }
-
-.social-icons img:hover {
-  -webkit-filter: grayscale(0);
-  -moz-filter: grayscale(0);
-  -o-filter: grayscale(0);
-  -ms-filter: grayscale(0);
-  filter: grayscale(0); }
-
-.social-icons {
-  margin-top: -2%;
-  text-align: center; }
-  .social-icons a {
-    display: block; }
-
-.social-icons li {
-  display: inline-block;
-  width: 64px;
-  height: 64px; }
-
-.touch .social-icons img {
-  -webkit-filter: grayscale(0); }
-
 .contact-details, .twitter {
   padding: 2%;
   height: auto;
-  background-color: white;
+  background-color: #FFF;
   border: 1px solid #efefef; }
 
 .about-details p, .icons p, .footer-info, .about-me ul, .image-overlay p, .posts span, .post ul li, .work p, .my-details p, .posts p, .post p {
@@ -595,10 +614,12 @@ footer {
   margin: 2% 0% 0% 5%; }
 
 .my-details h1 {
-  margin: 3%; }
+  margin: 4%; }
 
 .content h2 {
   text-align: center; }
 
 i.fa-2x {
   font-size: 1.4em; }
+
+/*# sourceMappingURL=index.css.map */

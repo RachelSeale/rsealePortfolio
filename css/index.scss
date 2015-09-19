@@ -14,6 +14,12 @@ $silver-grey: #f5f5f5;
 $pea-green: #76BF41;
 $font-color: #2e3133;
 
+@import "header";
+@import "portfolio";
+@import "contact";
+@import "posts";
+@import "footer";
+
 /* Global Reset */
 * {
   margin: 0;
@@ -28,12 +34,6 @@ html, body {
 body {
   background-color: $silver-grey;
 }
-
-
-
-@import "header";
-@import "portfolio";
-@import "contact";
 
 /*accordian*/
 
@@ -206,10 +206,6 @@ p .fa-border{
 }
 
 
-@import "posts";
-@import "footer";
-
-
 //CONTACT PAGE
 
 .contact-details, .twitter{
@@ -253,7 +249,7 @@ p .fa-border{
 }
 
 .my-details h1{
-  margin: 3%;
+  margin: 4%;
 }
 
 .content h2{
