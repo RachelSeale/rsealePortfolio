@@ -145,6 +145,7 @@ You can either:
 
  - Run these commands through the command line every time you work on these tests
  - Or add the following lines to your .bash_profile
+ 
 
           // Saucelabs credentials
           export SAUCE_USERNAME=
@@ -218,7 +219,8 @@ In the circle.yml file you will need to include the following snippet of code fo
 
 
 ##Views on Protractor
-### Setting up
+
+###Setting up
 
 Installing Protractor with the project was quite simple, the only issue was finding a way round it not being an AngularJS application. But as mentioned before it only needed an extra couple of lines in the files to get it running.
 
@@ -237,7 +239,7 @@ The only main issue with Jasmine is the results printed in the console log. They
 
 Install via npm:
 
-  npm install jasmine-spec-reporter --save-dev
+    npm install jasmine-spec-reporter --save-dev
 
 In your conf.js file:
 
