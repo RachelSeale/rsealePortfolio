@@ -31,7 +31,7 @@
   @include box-sizing(border-box);
     $desktop: new-breakpoint(max-width 735px 12);
     $tablet: new-breakpoint(max-width 615px 12);
-    $moible: new-breakpoint(max-width 400px 12);
+    $mobile: new-breakpoint(max-width 400px 12);
 
   .portfolio-work { @include span-columns(6); 
       margin-bottom: 2%;
@@ -59,7 +59,7 @@
        }
     }
   
-  @include media($moible) {
+  @include media($mobile) {
        @include span-columns(12);
         .image-overlay p{
           font-size: 12px;

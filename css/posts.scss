@@ -3,6 +3,9 @@
 /* Post
 /*
 /*****************************************************************************/
+
+$mobile: new-breakpoint(max-width 400px 12);
+
 #blog{
   background-color: $white;
 }
@@ -68,8 +71,14 @@ span{
 
 
 pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
   background-color: $code-grey;
   margin: 0% 4% 3% 5%;  
+
+  @include media($mobile) {
+    width:100%;
+  }
 }
 
 

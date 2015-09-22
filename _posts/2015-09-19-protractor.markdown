@@ -215,7 +215,8 @@ In the circle.yml file you will need to include the following snippet of code fo
             pwd: sc-4.3-linux
 	    # Wait for tunnel to be ready
         while [ ! -e ~/sc_ready ]; do sleep 1; done
-        protractor config.js --params.url 'http://localhost:8888' --params.isSauceLabs 1:
+        protractor config.js --params.url 'http://localhost:8888' 
+        --params.isSauceLabs 1:
         pwd: tests/saucelabs/protractor_tests
 
 
@@ -250,7 +251,8 @@ In your conf.js file:
        onPrepare: function() {
           var SpecReporter = require('jasmine-spec-reporter');
           // add jasmine spec reporter
-          jasmine.getEnv().addReporter(new SpecReporter({displayStacktrace: true}));
+          jasmine.getEnv().addReporter(new SpecReporter({
+          displayStacktrace: true}));
        }
     }
 
@@ -274,7 +276,8 @@ Then add this snipped of code to your conf.js file with the path you want your t
     framework: 'jasmine2',
     onPrepare: function() {
         var jasmineReporters = require('jasmine-reporters');
-        jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
+        jasmine.getEnv().addReporter(new jasmineReporters.
+        JUnitXmlReporter({
             consolidateAll: true,
             savePath: 'test_results',
             filePrefix: 'xmloutput'
