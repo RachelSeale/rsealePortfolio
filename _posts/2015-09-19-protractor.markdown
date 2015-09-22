@@ -82,6 +82,7 @@ Create a configuration file in your test directory and call it `conf.js`. An exa
 Here is a basic example of conf.js, for more configuration options checkout the GitHub - [referenceConf.js](https://github.com/angular/protractor/blob/master/docs/referenceConf.js) 
 
     exports.config = {
+      seleniumAddress: 'http://localhost:4444',
 		  suites: {
 			 base: ['base/*.js'],
 			 content: ['content/*.js'],
@@ -145,7 +146,7 @@ You can either:
 
  - Run these commands through the command line every time you work on these tests
  - Or add the following lines to your .bash_profile
- 
+
 
           // Saucelabs credentials
           export SAUCE_USERNAME=

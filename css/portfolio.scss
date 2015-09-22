@@ -62,10 +62,10 @@
   @include media($moible) {
        @include span-columns(12);
         .image-overlay p{
-          font-size: 14px;
+          font-size: 12px;
        }
          .image-overlay h2 {
-            font-size: 25px;
+            font-size: 21px;
             line-height: 30px;
         }
       }
