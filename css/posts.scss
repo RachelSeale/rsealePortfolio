@@ -4,7 +4,7 @@
 /*
 /*****************************************************************************/
 
-$tablet: new-breakpoint(max-width 660px 1);
+$phablet: new-breakpoint(max-width 660px 1);
 
 #blog{
   background-color: $white;
@@ -58,7 +58,7 @@ span{
 img {
     width: 49%;
 
-    @include media($tablet) {
+    @include media($phablet) {
       width: 100%;
     }
 }

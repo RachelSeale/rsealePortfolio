@@ -3,7 +3,7 @@ footer {
   @include outer-container;
   background-color: $white;
   margin-top: 3%;
-  $tablet: new-breakpoint(max-width 760px  4);
+  $phablet: new-breakpoint(max-width 760px  4);
   $mobile: new-breakpoint(max-width 300px 12);
 
   .footer-info{

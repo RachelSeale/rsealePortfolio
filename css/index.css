@@ -139,12 +139,15 @@ nav {
       margin-right: 0; }
     .portfolio-content .portfolio-work:nth-child(2n+1) {
       clear: left; }
-    @media screen and (max-width: 735px) {
+    @media screen and (max-width: 880px) {
       .portfolio-content .portfolio-work .image-overlay h2 {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 30px; }
       .portfolio-content .portfolio-work .image-overlay p {
-        font-size: 14px; } }
+        font-size: 16px; } }
+    @media screen and (max-width: 790px) {
+      .portfolio-content .portfolio-work .image-overlay p {
+        font-size: 12px; } }
     @media screen and (max-width: 615px) {
       .portfolio-content .portfolio-work {
         float: left;

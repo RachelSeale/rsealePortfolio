@@ -21,6 +21,8 @@ $code-grey: #E0E0E0;
 @import "posts";
 @import "footer";
 
+$tablet: new-breakpoint(max-width 735px 12);
+
 /* Global Reset */
 * {
   margin: 0;
@@ -117,12 +119,12 @@ p .fa-border{
 /*****************************************************************************/
 .site {
   @include outer-container;
-  $tablet: new-breakpoint(max-width 660px  4);
+  $phablet: new-breakpoint(max-width 660px  4);
   $mobile: new-breakpoint(max-width 500px 1);
 
   .header { @include span-columns(12); 
     text-align: center;
-    @include media($tablet) {
+    @include media($phablet) {
     @include span-columns(4);
      .welcome-message, .border-line{
         display: none;
@@ -165,12 +167,12 @@ p .fa-border{
 
 .welcome-text {
   @include outer-container; 
-  $tablet: new-breakpoint(max-width 660px 1);
+  $phablet: new-breakpoint(max-width 660px 1);
   $mobile: new-breakpoint(max-width 600px 1);
    
   .about-me  { @include span-columns(4); 
     background-color: $white;
-    @include media($tablet) {
+    @include media($phablet) {
       margin-top: 2%;
     @include span-columns(1);
     }
@@ -178,7 +180,7 @@ p .fa-border{
 
   .about-details{ @include span-columns(8);
     background-color: $white;
-    @include media($tablet) {
+    @include media($phablet) {
     @include span-columns(1);
       .about-me .my-details {
           float: none;

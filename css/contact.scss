@@ -30,19 +30,19 @@ input{
 
 .contact-me {
   @include outer-container; 
-  $tablet: new-breakpoint(max-width 740px 1);
+  $phablet: new-breakpoint(max-width 740px 1);
   $mobile: new-breakpoint(max-width 600px 1);
    
   .about-me  { @include span-columns(4); 
     background-color: $white;
-    @include media($tablet) {
+    @include media($phablet) {
       margin-top: 2%;
     @include span-columns(1);
     }
   }
 
   .contact-details{ @include span-columns(8);
-    @include media($tablet) {
+    @include media($phablet) {
     @include span-columns(1);
       .about-me .my-details {
           float: none;

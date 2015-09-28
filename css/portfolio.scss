@@ -29,8 +29,9 @@
 .portfolio-content {
   
   @include box-sizing(border-box);
-    $desktop: new-breakpoint(max-width 735px 12);
-    $tablet: new-breakpoint(max-width 615px 12);
+    $desktop: new-breakpoint(max-width 880px 12);
+    $tablet: new-breakpoint(max-width 790px 12);
+    $phablet: new-breakpoint(max-width 615px 12);
     $mobile: new-breakpoint(max-width 400px 12);
 
   .portfolio-work { @include span-columns(6); 
@@ -40,15 +41,21 @@
 
     @include media($desktop) {
       .image-overlay h2 {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 30px;
       }
        .image-overlay p{
-        font-size: 14px;
+        font-size: 16px;
+       }
+    } 
+
+    @include media($tablet) {
+       .image-overlay p{
+        font-size: 12px;
        }
     }  
 
-    @include media($tablet) {
+    @include media($phablet) {
        @include span-columns(12);
         .image-overlay h2 {
           font-size: 30px;
