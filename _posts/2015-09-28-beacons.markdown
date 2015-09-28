@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Beacons - Eddystone!"
+date:   2015-09-28 20:10:58
+categories: Posts
+---
+Beacons connect objects or places with mobile devices, they provide the user with information that they need and when they need it. Beacons use Low-Energy Bluetooth (BLE) technology, which is great as it doesn't drain battery life on the beacons nor devices. Beacons send small bursts of data at intervals that mobile applications can listen to and interact with.
+
+###Eddystone experiment 
+So I carried out, experiments out using Bluetooth low energy (BLE) beacons, to see and determine how useful they really are. Only till recently iBeacon were only the devices widely available. 
+
+Now more choice is available, with Google jumping on the BLE beacon craze and creating a rival protocol called Eddystone. So it being all new and shiny, why not try it out.
+
+Eddystone is an open source protocol created by Google (available on [GitHub](https://github.com/google/eddystone) under the open­-source Apache v2.0 license) that allows BLE beacons to communicate and support cross-platforms, with official support from iOS and Android. 
+
+iBeacon and Eddystone are very similar as overall they offer communication from beacons to different devices. However Eddystone does have some advantages over iBeacon with the main advantage being available across platforms. As everyone knows it is very important to have technology available to work on the vast amount of diverse devices out there. 
+
+Another advantage Eddystone has over iBeacon is that it offers multiple broadcast frame types, it offers [UID](http://developer.estimote.com/eddystone/#eddystone-uid), [URL](http://developer.estimote.com/eddystone/#eddystone-url) and [TLM](http://developer.estimote.com/eddystone/#eddystone-tlm). Advantage of this is that the URL packet type allows you to broadcast a URL when an app isn't an option, which can be a massive reason for many business to take notice of this new protocol. As for example, you could place a beacon near poster advertising an event, and it will connect with the phones within a given radius and give the option to display the url if the user wishes too.
+
+
+###[Estimote](http://estimote.com/) v [Radius Networks](http://www.radiusnetworks.com/) 
+
+So to experiment with the new protocol we had two sets of beacons that both provide support for Eddystone. 
+
+At first glance and research into these, the first thoughts of the two beacons where:
+
+ - Both well known providers of Beacons through the developer community
+ - Estimote runs on battery, but the default settings claim it can last for 3 years,  and offers the option to extended the [battery life](https://community.estimote.com/hc/en-us/articles/202552866-How-to-optimize-battery-performance-of-Estimote-Beacons-) even more. Where as Radius Networks can be plugged into USB socket but also provide some beacons to run on batteries.
+ - Estimote packaging and documentation for the Beacons had more information and looked better, compared to Radius Networks.
+
+![Radius Networks Beacons](/images/RADbeacons.png) ![Estimote Beacons](/images/EstimoteBeacons.png)
+
+###Estimote Beacons
+
+So from first glance and looking at the documentation available to get started we decided to start with the Estimote beacons. 
+
+The Estimote website was really useful it gave you tutorials and guidance, however they are still very heavily based on iBeacons. They provide a page dedicated to [Eddystone](http://developer.estimote.com/eddystone/) and explains everything you need to know to understand the basics. 
+
+To further help understand and getting started  they offer a [iOS SDK](http://developer.estimote.com/eddystone/#ios-quick-start) (software development kit), which offers a 
+
+> wide range of both utility and client facing features that will save time and make development easier than ever. It's built purely on Apple Core Location and Core Bluetooth technologies and is 100% iBeacon compatible. *- http://developer.estimote.com/eddystone/*
+
+Once working through the documentation, we were able to get a simple app working where it used the `ESTEddystoneProximity` to work out which beacon was the closet and display back on the screen the beacons identifier, received signal strength indicator (RSSI) and proximity.
+
+The proximity holds four types Unknown, Far, Near, Immediate. From these ranges, it allows you to be able to disable different information depending on their proximity. 
+
+The signal was good enough to separate the beacons into three separate rooms and have the app display each one room information when entering. This could be experimented further, but from the simple app we created there are reasons to use them in the future with interaction with mobile devices in the educational, cultural and retail environments. 
+
+####Handy tips 
+From using Estimote beacons there are some cool handy tips to know before experimenting with them.
+
+***Before use -***
+
+Estimote beacons are pre-registered to the buyer and the buyers email address, you don't have to register them. You can change the address they are registered to, which can be done through the Estimote cloud.
+
+The beacons come with default setting of being an iBeacon but you change these and to do so, you will need to download the Estimote app or again you can do it through the Estimote cloud, where you are able to change them over to Eddystone-UID or URL or TRM. 
+ 
+However if you have the old firmware you will need to update the firmware for the beacons before being able to change over the packet type. 
+Also you will need to update and change packet types for the beacons individually.
+
+***While using -***
+
+Estimote allows you to put your beacons to sleep. This saves time and gives you more control over them, when first starting out and experimenting.
+
+You can also change the the transmit power and the advertising interval, which all determines the strength of the beacons but this will also interfere with the battery life. 
+
+All of this can be accessed and changed through the app they offer called or through the Estimote cloud but only activated once you opened the Estimote app, as it will ready *'pending'*.
+
+### Views on Beacon technology
+
+Its great! This sort of technology is very up and coming and the idea of what you can do with them are endless and exciting. 
+
+Just as an example ever been to a gallery and ever been looking at piece of art in a museum and wondered; What was the artist thinking? How did they create this? What material did they use? Do they have previous work?
+
+Yes most probably it is printed somewhere, but with everyone using technology why not use it too. You could use beacons to hold specific data for the piece artwork or installation and display it on devices through a URL or App, which doesn't give you limits on the scope of what you can offer. Also it can be more convenient as they could choose to download data and come back when they have more time. It could also be interactive and connect with social media, the options do seem boundless. 
+
+There seems to no reasons not to use them in the future with interaction with mobile devices in the educational, cultural and retail environments. 

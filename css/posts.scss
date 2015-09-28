@@ -4,6 +4,7 @@
 /*
 /*****************************************************************************/
 
+$tablet: new-breakpoint(max-width 660px 1);
 
 #blog{
   background-color: $white;
@@ -55,7 +56,11 @@ span{
 //Images
 
 img {
-    width: 100%;
+    width: 49%;
+
+    @include media($tablet) {
+      width: 100%;
+    }
 }
 
 .post h3, .post h4 {

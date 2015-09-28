@@ -287,7 +287,10 @@ input {
   text-align: center; }
 
 img {
-  width: 100%; }
+  width: 49%; }
+  @media screen and (max-width: 660px) {
+    img {
+      width: 100%; } }
 
 .post h3, .post h4 {
   font-family: 'Oswald', sans-serif;
