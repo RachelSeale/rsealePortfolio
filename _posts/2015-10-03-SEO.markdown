@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "What have been the key technological driver of change and their effects on marketing over the last 20 years?"
+date:   2015-10-03 09:40:58
+categories: Posts
+---
+
+Over the past 20 years the Internet has seen a great change. The Internet began as a small, decentralized collective of computers, until the need for personal computers. This revolution was built upon the foundations of encouraging technologies being produce that has changed the way in how we interact with the internet today. 
+
+###The birth of the internet
+
+On 12th of March, 1989 Berners-Lee envisioned the Internet to be:
+
+“The hope would be allow a pool of information to develop which could grow and evolve” - (Isaacson, W. (1958). The Web. In: The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution. N/A: Penguin world. 405-462.)
+
+“A ‘web’ of notes with links between them is far more useful than a fixed hierarchical system.” (Isaacson, W. (1958). The Web. In: The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution. N/A: Penguin world. 405-462.)
+
+Berners-Lee then brought this idea together and created the WWW (World Wide Web) in 1990. Then in 1993, CERN laboratories (research lab) where he worked, declared that WWW technology would be free to use by anyone without paying royalties. 
+
+This decision, alongside fellow Internet pioneers was a visionary and an important one.
+The WWW rescued the Internet and is responsible for the internet we use today. At the end of 1994, there were already one million browser copies in use and every year onwards to the year 2000. The Internet saw a massive growth like no other progressing technology; this was just the beginning of the Internet era.
+
+###Search engines
+
+With the growth of the WWW growing rapidly it didn’t take long for search engines to appear, in the mid 1990s. 
+
+####Early search, before Google
+
+In the beginning, the first search engine was called, ‘Archie’ in 1990 created by McGill University.  Archie was based on the Internet file transfer protocol (FTP). The engine was able to index documents that it found via FTP, but was only able to document the titles and not the full document, which was not user friendly. Because of the rapid growth, “from 1993 to 1996, the Web grew from 130 sites to more than 600,00.” (Battelle, J. (2005). Search before Google. In: The Search. N/A: N/A. 40-41.)  The demand of an efficient search engine grew, and WebCrawler, which was the first, indexed the whole webpage than the metadata, however they were still very basic and not that efficient. 
+
+#### The rise of Google
+
+The Late 90’s saw the birth of Google, it didn’t take them long to appear on the scene, and establish themselves as market leaders. 
+Google’s, technology was a step ahead of the others. It was the two founders of Google, Larry Page and Sergey Brin that applied more rigorously mathematical principles to search, with Larry Page realising the importance of back links along with citations. This allowed them to produce their algorithm, which was called PageRank. 
+
+#### Page rank
+
+PageRank is constantly changing every year with new technologies to try and prevent frauds mistreating the system and getting to the top of the search results. Since the early change in 2008 it has had a digital impact. The change has now allowed the visitor entry point to any page on the site and not just the homepage. So now every page on a website should be treated like a homepage and have all the relevant tags and content need to gain the higher ranks. 
+Between 2011 and 2013 their where two major updates from Google, which focused on link quality (Penguin) and the quality of the content on the website (Panda). Panda was brought out to stop sites with poor content taking over Google’s top search results, whereas Penguin looked for sites with bad links with some of them buying them to create higher search results. Then later to keep up to mobile-based marketing they introduced the Hummingbird algorithm, which allows users to ask questions.
+
+
+#### Pay per clicks
+
+As Google began to take off, they needed to gain some revenue, as there service at the beginning was free. 
+In 1999 Google began bleeding a lot of cash, as it was claimed, they didn’t have a business model . This is when Google started to look into GoTo.com, which was a rival search engine at the time, which was gaining vast revenue from an advertising model created by Bill Gross. Seven months before Google in 1998, Gross created GoTo.com, which was an attempt to fix Page and Brin problem. 
+Websites would pay for keywords to reach people who where already searching their business, to make sure they are top place on the GoTo.com results page for a given keywords. As being on the top usually leads to more clicks and gains more traffic, which was very cost-efficient for businesses.
+The business model, that Gross created changed the Internet completely as it gave Google the idea of their AdWords service in 2001, which made Overture who were known as more of a backend platform than a search engine. Bill Gross came very close, and if he succeeded, then the Internet might not of been perceived or used in the same way that it is today.  
+Google’s effect is so strong that we don’t ‘search’ for something, we now Google it; this has made Google the most authoritative place for advertisement ever;
+ “87% of online searches using Google, when your potential customer wants to find something, they look to Google.” 
+
+Google has effectively created its own universe centred around itself, where small businesses can compete against megalithic corporations as long as they take the right approach. 
+
+
+
+Part two coming next week where I talk about mobile and social media has helped change the way digital markeitng is perceived.
+
+
+
+
+
+
+
+
+
+
